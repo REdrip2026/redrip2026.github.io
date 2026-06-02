@@ -1,1 +1,18 @@
+body{
+  font-family:Arial;
+  background:black;
+  color:white;
+  text-align:center;
+}
 
+.products{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.product{
+  background:#111;
+  padding:20px;
+  border-radius:10px;
+}
