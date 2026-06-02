@@ -1,18 +1,45 @@
 body{
-  font-family:Arial;
   background:black;
   color:white;
+  font-family:Arial;
+  margin:0;
+  padding:30px;
+}
+
+h1{
   text-align:center;
+  font-size:55px;
+  margin-bottom:50px;
 }
 
 .products{
-  display:flex;
-  justify-content:center;
-  gap:20px;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:30px;
 }
 
 .product{
   background:#111;
   padding:20px;
+  border-radius:15px;
+  text-align:center;
+}
+
+.product img{
+  width:100%;
   border-radius:10px;
+}
+
+h2{
+  margin-top:15px;
+}
+
+button{
+  background:white;
+  color:black;
+  border:none;
+  padding:12px 20px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
 }
